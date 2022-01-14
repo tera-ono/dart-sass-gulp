@@ -1,0 +1,14 @@
+@use "global" as *;
+
+.test {
+  font-size: rem(100);
+  background-color: $black;
+  color: red;
+}
+
+.menu {
+  display: flex;  
+  & li {
+    margin-left: 200px;
+  }
+}
