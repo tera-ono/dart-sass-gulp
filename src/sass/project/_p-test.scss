@@ -3,12 +3,12 @@
 .test {
   font-size: rem(100);
   background-color: $black;
-  color: red;
+  color: $white;
 }
 
 .menu {
   display: flex;  
   & li {
-    margin-left: 200px;
+    margin-left: rem(20);
   }
 }
